@@ -1,4 +1,17 @@
+# Exclude hidden operating system clutter
 .DS_Store
+.ipynb_checkpoints/
+
+# Exclude Python virtual environments
 __pycache__/
 .venv/
 casper/
+*.pyc
+
+# Exclude data assets and image sets across ALL weeks
+*data/
+*.bmp
+*.png
+*.jpg
+*.jpeg
+*.gif
